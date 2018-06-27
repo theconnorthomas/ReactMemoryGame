@@ -1,0 +1,16 @@
+.myNavbar {
+    position: fixed;
+    z-index: 1;
+    height: 75px;
+    width: 100%;
+    background: #2BBBAD;
+    color: #fff;
+    box-shadow: 5px 5px 15px 0px #313131;
+}
+
+.navbarText {
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-size: 30px;
+    padding: 0px 10px;
+}

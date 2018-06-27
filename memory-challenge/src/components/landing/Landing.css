@@ -1,0 +1,19 @@
+.landing{
+    color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    background-color: #37474F;
+    margin-bottom: -30px;
+}
+
+h1 {
+    font-family: 'Damion', cursive;
+    text-align: center;
+    font-size: 4em;
+}
+
+p {
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    font-size: 2em;
+}

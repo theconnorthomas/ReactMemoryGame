@@ -1,0 +1,13 @@
+.page-footer{
+    background-color: #2BBBAD;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #cfd8dc;
+}

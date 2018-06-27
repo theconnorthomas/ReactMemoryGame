@@ -1,0 +1,51 @@
+.App {
+    text-align: center;
+  }
+  
+  .yaGoofed {
+    animation-name: yaGoofed;
+    animation-duration: 1s
+  }
+  @keyframes yaGoofed {
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: translate3d(-20px, 0, 0);
+    }
+  
+    20%,
+    40%,
+    60%,
+    80% {
+      transform: translate3d(20px, 0, 0);
+    }
+  }
+  
+  @keyframes winner {
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: translate3d(0, 20px, 0);
+    }
+  
+    20%,
+    40%,
+    60%,
+    80% {
+      transform: translate3d(0, -20px, 0);
+    }
+  }
+  
+  .winner {
+    animation-name: winner;
+    animation-duration: 1s;
+  }
